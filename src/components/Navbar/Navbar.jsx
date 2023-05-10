@@ -14,7 +14,13 @@ const Navbar = () => {
           width={200}
         />
         <div className="center-nav">
-          <div>Bikes</div>
+          {/* <div>Bikes</div> */}
+          <select placeholder="BIKES" className="bikes-dropdown">
+            <option>Bikes</option>
+            <option>Bike 1</option>
+            <option>Bike 2</option>
+            <option>Bike 3</option>
+          </select>
           <div>New Arrivals</div>
           <div>Parts</div>
           <div>Shop</div>
