@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero-main-section {
+  background-image: radial-gradient(
+    closest-side at 55% 40%,
+    #fff,
+    rgb(251, 236, 221)
+  );
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-logo-section {
+  padding: 20px 0 20px 0;
+}
+
+.hero-bike-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.bike-info-title {
+  font-family: "Noto Sans";
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.bike-info-subtitle {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #f05f16;
+}
+
+.bike-info-border1 {
+  border-bottom: 0.5px solid #f05f16;
+  padding-bottom: 20px;
+  width: 115px;
+}
+
+.bike-info-border2 {
+  border-bottom: 0.5px solid #f05f16;
+  padding-bottom: 20px;
+  width: 78px;
+}
+
+.hero-bike-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-button {
+  background-color: #f7cf1d;
+  color: black;
+  padding: 8px 15px 8px 15px;
+  border-style: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 15px;
+  font-family: "Noto Sans";
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
