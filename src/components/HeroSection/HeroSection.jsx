@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroSection.css";
-import { FiArrowUpRight } from "react-icons/fi";
+import BikeCard from "./BikeCard";
+import models from "./BikeModels";
 
 const HeroSection = () => {
   return (
@@ -12,43 +13,13 @@ const HeroSection = () => {
           width={500}
         />
       </div>
-      <div className="hero-bike-section">
-        <div className="hero-bike-info">
-          <div>
-            <div className="bike-info-title">Electric Motor</div>
-            <div className="bike-info-subtitle bike-info-border1">
-              Revelation
-            </div>
-          </div>
-          <div>
-            <div className="bike-info-title">Torque</div>
-            <div className="bike-info-subtitle bike-info-border2">86 FT-LB</div>
-          </div>
-          <div>
-            <div className="bike-info-title">Horsepower</div>
-            <div className="bike-info-subtitle">105 HP / X78 KW</div>
-          </div>
-        </div>
-        <div>
-          <img
-            src="https://www.imgtr.ee/images/2023/05/10/llcuJ.png"
-            alt="hero-bike"
-            width={640}
-            height={370}
-          />
-        </div>
-        <div className="bike-info-button">
-          <img
-            src="https://www.imgtr.ee/images/2023/05/10/lvpzA.png"
-            alt="helmet"
-          />
-          <div>
-            <button className="hero-button">
-              Helmet
-              <FiArrowUpRight />
-            </button>
-          </div>
-        </div>
+      <div>
+        <BikeCard
+          motor={models[0].motor}
+          torque={models[0].torque}
+          power={models[0].power}
+          imgURL={models[0].imgURL}
+        />
       </div>
     </div>
   );

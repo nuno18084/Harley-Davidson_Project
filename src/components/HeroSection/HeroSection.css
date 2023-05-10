@@ -11,20 +11,22 @@
     #fff,
     rgb(251, 236, 221)
   );
+}
+
+.hero-logo-section {
+  padding: 20px 0 20px 0;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
 }
 
-.hero-logo-section {
-  padding: 20px 0 20px 0;
-}
-
 .hero-bike-section {
   display: flex;
   align-items: center;
-  gap: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  justify-content: space-between;
 }
 
 .bike-info-title {
@@ -59,6 +61,17 @@
   gap: 20px;
 }
 
+.bike-info-helmet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.info-helmet {
+  z-index: 3;
+}
+
 .hero-button {
   background-color: #f7cf1d;
   color: black;
@@ -72,4 +85,12 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  z-index: 1;
 }
+
+/* .button-section {
+  z-index: 1;
+
+  border: 1px solid gray;
+  padding: 70px 15px 15px 15px;
+} */
