@@ -1,0 +1,37 @@
+.main-container {
+  margin: 80px 80px 80px 80px;
+  display: flex;
+  /* overflow: hidden; */
+}
+
+.first-container {
+  padding: 20px;
+  border: 1px solid black;
+  width: 40%;
+  height: 450px;
+}
+
+/* .first-img {
+  position: absolute;
+  transform: translateX(-45%);
+} */
+
+.second-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 60%;
+  height: 450px;
+}
+
+.second-container-item {
+  border: 1px solid black;
+}
+
+.second-container-item2 {
+  padding: 20px;
+}
+
+.item-img {
+  object-fit: cover;
+}

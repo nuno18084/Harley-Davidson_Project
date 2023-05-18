@@ -1,11 +1,11 @@
 import Navbar from "./components/Navbar/Navbar";
-import HeroSection from "./components/HeroSection/HeroSection";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <HeroSection />
+      <MainPage />
     </div>
   );
 }
