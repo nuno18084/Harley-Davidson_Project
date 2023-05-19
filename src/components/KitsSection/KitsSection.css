@@ -2,7 +2,7 @@
 
 .kits-main-container {
   font-family: "Noto Sans";
-  margin: 40px 80px 40px 80px;
+  margin: 20px 80px 40px 80px;
 }
 
 .kits-title {
@@ -44,4 +44,30 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 20px;
+  padding-right: 30px;
+  border-right: 2px solid rgb(242, 82, 43);
+}
+
+.kits-desc-border-top1 {
+  border-top: 2px solid rgb(242, 82, 43);
+  width: 112%;
+  padding-top: 5px;
+}
+
+.kits-desc-border-top3 {
+  border-top: 2px solid rgb(242, 82, 43);
+  width: 115%;
+  padding-top: 5px;
+}
+
+.kits-desc-border-top2 {
+  border-bottom: 2px solid rgb(242, 82, 43);
+  width: 117%;
+  padding-bottom: 5px;
+}
+
+.kits-desc-border-top4 {
+  border-bottom: 2px solid rgb(242, 82, 43);
+  width: 115%;
+  padding-bottom: 5px;
 }

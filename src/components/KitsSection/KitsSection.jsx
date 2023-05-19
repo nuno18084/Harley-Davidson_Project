@@ -21,10 +21,10 @@ const KitsSection = () => {
             height={300}
             className="kits-img"
           />
-          <p>Racing Suit</p>
+          <p className="kits-desc-border-top1">Racing Suit</p>
         </div>
         <div className="kits-img-desc">
-          <p>Alpinestars Vented Boots</p>
+          <p className="kits-desc-border-top2">Alpinestars Vented Boots</p>
           <img
             src={Boots}
             alt="boots"
@@ -41,10 +41,10 @@ const KitsSection = () => {
             height={180}
             className="kits-img"
           />
-          <p>Grappler Helmet</p>
+          <p className="kits-desc-border-top3">Grappler Helmet</p>
         </div>
         <div className="kits-img-desc">
-          <p>Marathon Ultra Tires</p>
+          <p className="kits-desc-border-top4">Marathon Ultra Tires</p>
           <img
             src={Tires}
             alt="tires"
