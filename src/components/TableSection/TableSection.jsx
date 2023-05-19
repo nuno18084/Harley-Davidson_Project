@@ -12,12 +12,18 @@ const TableSection = () => {
           New Revolution Max 1250T has liquid cooled powertrain offering amp
           torque and immediate powerband.
         </p>
-        <button>
+        <button className="container-btn">
           Learn More
           <FiArrowUpRight />
         </button>
         <div>
-          <img className="first-img" src={Max_1250T} alt="1250T" />
+          <img
+            className="first-img"
+            src={Max_1250T}
+            width={350}
+            height={340}
+            alt="1250T"
+          />
         </div>
       </div>
       <div className="second-container">
@@ -43,7 +49,7 @@ const TableSection = () => {
             <h5>Engine Torque</h5>
           </div>
         </div>
-        <div className="second-container-item second-container-item2">
+        <div className="second-container-item second-container-item2 second-container-gradient">
           <h1>The riders</h1>
           <p>dofvirfv</p>
         </div>
