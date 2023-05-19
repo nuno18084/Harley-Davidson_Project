@@ -20,10 +20,10 @@
 }
 
 .kits-title h1 {
+  text-align: center;
   text-transform: uppercase;
   font-weight: 700;
   width: 400px;
-  overflow-wrap: break-word;
 }
 
 .kits-img-desc-section {
@@ -62,7 +62,7 @@
 
 .kits-desc-border-top2 {
   border-bottom: 2px solid rgb(242, 82, 43);
-  width: 117%;
+  width: 115%;
   padding-bottom: 5px;
 }
 
@@ -70,4 +70,9 @@
   border-bottom: 2px solid rgb(242, 82, 43);
   width: 115%;
   padding-bottom: 5px;
+}
+
+.kits-img-desc-section {
+  font-family: "Noto Sans";
+  font-weight: 700;
 }
