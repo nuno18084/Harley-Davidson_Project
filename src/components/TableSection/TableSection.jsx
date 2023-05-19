@@ -1,14 +1,16 @@
 import React from "react";
 import "./TableSection.css";
 import { FiArrowUpRight } from "react-icons/fi";
-import Max_1250T from "../../images/Max_1250T.png";
+// import Max_1250T from "../../images/Max_1250T.png";
 import Engine from "../../images/Engine.jpeg";
+import riders from "../../images/riders.png";
+import iron from "../../images/iron.png";
 
 const TableSection = () => {
   return (
     <div className="main-container">
       <div className="first-container">
-        <p>
+        <p className="container-paragraph">
           New Revolution Max 1250T has liquid cooled powertrain offering amp
           torque and immediate powerband.
         </p>
@@ -19,9 +21,9 @@ const TableSection = () => {
         <div>
           <img
             className="first-img"
-            src={Max_1250T}
-            width={350}
-            height={340}
+            src={iron}
+            width={450}
+            height={300}
             alt="1250T"
           />
         </div>
@@ -32,26 +34,32 @@ const TableSection = () => {
             src={Engine}
             alt="engine"
             className="item-img"
-            width={298}
+            width="100%"
             height={225}
           />
         </div>
         <div className="second-container-item second-container-item2">
-          <h1>90 KW</h1>
-          <p>Engine Horsepower</p>
+          <div className="second-container-item2-special2">
+            <h1>90</h1>
+            <p>KW</p>
+          </div>
+          <p className="container-paragraph">Engine Horsepower</p>
         </div>
         <div className="second-container-item second-container-item2">
-          <p>
+          <p className="container-paragraph">
             Experience our new approach to dynamic torque, fluid cooling engine.
           </p>
-          <h1>125 NM</h1>
-          <div>
-            <h5>Engine Torque</h5>
+          <div className="second-container-item2-special">
+            <div className="second-container-item2-special2">
+              <h1>125</h1>
+              <p>NM</p>
+            </div>
+            <h5 className="container-paragraph">Engine Torque</h5>
           </div>
         </div>
         <div className="second-container-item second-container-item2 second-container-gradient">
           <h1>The riders</h1>
-          <p>dofvirfv</p>
+          <img src={riders} alt="riders" width={160} height={110} />
         </div>
       </div>
     </div>

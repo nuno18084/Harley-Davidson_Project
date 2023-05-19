@@ -24,6 +24,9 @@
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
+  z-index: 4;
+  margin-top: 50px;
+  padding-left: 0;
 }
 
 .first-img {
@@ -43,7 +46,23 @@
 }
 
 .second-container-item2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 20px;
+}
+
+.second-container-item2-special {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-container-item2-special2 {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 .item-img {
@@ -59,4 +78,9 @@
   color: white;
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.container-paragraph {
+  font-weight: 600;
+  font-size: 16px;
 }
