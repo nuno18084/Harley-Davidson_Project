@@ -4,6 +4,8 @@
   font-family: "Noto Sans";
   margin: 120px 80px 150px 80px;
   display: flex;
+  -webkit-box-shadow: 2px 8px 26px -1px #c4c4c4;
+  box-shadow: 2px 8px 26px -1px #c4c4c4;
 }
 
 .first-container {
