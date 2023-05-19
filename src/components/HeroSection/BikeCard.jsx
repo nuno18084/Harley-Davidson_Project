@@ -2,8 +2,7 @@ import React from "react";
 import "./HeroSection.css";
 import { FiArrowUpRight } from "react-icons/fi";
 import Carousel from "react-bootstrap/Carousel";
-import { TbBike } from "react-icons/tb";
-import { BiFileFind } from "react-icons/bi";
+import Buttons from "./Buttons/Buttons";
 
 const BikeCard = (props) => {
   return (
@@ -72,19 +71,8 @@ const BikeCard = (props) => {
           </div>
         </div>
       </div>
-      <div className="btn-stand">
-        <div>
-          <button className="btn-stand-dealer btn-icon">
-            <BiFileFind size={20} />
-            Find a Dealer
-          </button>
-        </div>
-        <div>
-          <button className="btn-stand-ride btn-icon">
-            <TbBike size={20} />
-            Test ride
-          </button>
-        </div>
+      <div>
+        <Buttons />
       </div>
     </>
   );
