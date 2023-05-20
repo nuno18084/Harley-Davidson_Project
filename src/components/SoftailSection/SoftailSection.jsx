@@ -20,7 +20,7 @@ const SoftailSection = () => {
           <h5>New</h5>
           <button className="softail-btn">
             Harley Davidson Collection
-            <FiArrowUpRight />
+            <FiArrowUpRight size={20} />
           </button>
         </div>
       </div>
