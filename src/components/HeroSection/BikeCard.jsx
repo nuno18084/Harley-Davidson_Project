@@ -5,6 +5,13 @@ import Carousel from "react-bootstrap/Carousel";
 import Buttons from "./Buttons/Buttons";
 
 const BikeCard = (props) => {
+  const handleClick = () => {
+    window.open(
+      "https://www.harley-davidson.com/pt/pt/shop/willie-g-x04-2-in-1-helmet/p/98163-22EX",
+      "_blank"
+    );
+  };
+
   return (
     <>
       <div className="hero-bike-section">
@@ -64,7 +71,7 @@ const BikeCard = (props) => {
             className="info-helmet"
           />
           <div className="button-section">
-            <button className="hero-button">
+            <button onClick={handleClick} className="hero-button">
               Helmet
               <FiArrowUpRight />
             </button>

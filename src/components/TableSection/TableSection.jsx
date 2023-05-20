@@ -7,6 +7,13 @@ import riders from "../../images/riders.png";
 import iron from "../../images/iron.png";
 
 const TableSection = () => {
+  const handleClick = () => {
+    window.open(
+      "https://www.harley-davidson.com/pt/pt/motorcycles/pan-america-1250.html",
+      "_blank"
+    );
+  };
+
   return (
     <div className="main-container">
       <div className="first-container">
@@ -14,7 +21,7 @@ const TableSection = () => {
           New Revolution Max 1250T has liquid cooled powertrain offering amp
           torque and immediate powerband.
         </p>
-        <button className="container-btn">
+        <button onClick={handleClick} className="container-btn">
           Learn More
           <FiArrowUpRight />
         </button>

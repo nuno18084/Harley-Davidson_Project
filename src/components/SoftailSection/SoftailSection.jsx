@@ -6,6 +6,20 @@ import America from "../../images/america.png";
 import { TbBike } from "react-icons/tb";
 
 const SoftailSection = () => {
+  const handleClick = () => {
+    window.open(
+      "https://www.harley-davidson.com/pt/pt/products/bikes.html",
+      "_blank"
+    );
+  };
+
+  const handleBikes = () => {
+    window.open(
+      "https://www.harley-davidson.com/pt/pt/motorcycles/cruiser.html",
+      "_blank"
+    );
+  };
+
   return (
     <div className="softail-main-section">
       <div className="softail-first-section">
@@ -18,7 +32,7 @@ const SoftailSection = () => {
         </div>
         <div>
           <h5>New</h5>
-          <button className="softail-btn">
+          <button onClick={handleBikes} className="softail-btn">
             Harley Davidson Collection
             <FiArrowUpRight size={20} />
           </button>
@@ -36,7 +50,7 @@ const SoftailSection = () => {
           </p>
         </div>
         <div>
-          <button className="softail-second-btn btn-icon">
+          <button onClick={handleClick} className="softail-second-btn btn-icon">
             <TbBike size={20} />
             See all Bikes
           </button>

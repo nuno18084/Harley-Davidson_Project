@@ -5,7 +5,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const handleClick = () => {
     window.open(
-      "https://www.harley-davidson.com/pt/pt/products/bikes.html",
+      "https://www.facebook.com/Harley-Davidson-Portugal-105785147709941/",
       "_blank"
     );
   };
@@ -36,21 +36,21 @@ const Navbar = () => {
             <div>New Arrivals</div>
           </a>
           <a
-            href="https://www.harley-davidson.com/pt/pt/products/bikes.html"
+            href="https://www.harley-davidson.com/pt/pt/shop/c/motorcycle-parts"
             target="_blank"
             rel="noreferrer"
           >
             <div>Parts</div>
           </a>
           <a
-            href="https://www.harley-davidson.com/pt/pt/products/bikes.html"
+            href="https://www.harley-davidson.com/pt/pt/motorcycles/index.html?format=json;i=1;locale=pt_PT;q1=bikes;sp_cs=UTF-8;x1=primaryCategoryCode"
             target="_blank"
             rel="noreferrer"
           >
             <div>Shop</div>
           </a>
           <a
-            href="https://www.harley-davidson.com/pt/pt/products/bikes.html"
+            href="https://serviceinfo.harley-davidson.com/sip/vehicle/lookupForm"
             target="_blank"
             rel="noreferrer"
           >
