@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import MainPage from "./pages/MainPage";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <MainPage />
+      <Footer />
     </div>
   );
 }
