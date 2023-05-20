@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap");
+
+.softail-main-section {
+  font-family: "Noto Sans";
+  background-image: linear-gradient(
+    to left,
+    rgb(242, 82, 43),
+    rgb(234, 124, 15)
+  );
+}
+
+.softail-first-section {
+  margin: 250px 80px 0px 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 50px;
+  color: white;
+  /* gap: 20px; */
+  border-bottom: 1px solid black;
+  z-index: 5;
+}
+
+.softail-first-section h5 {
+  text-transform: uppercase;
+  font-size: smaller;
+}
+
+.softail-first-section h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.softail-bike-pic {
+  transform: translate(0px, -190px) rotate(-7deg);
+  z-index: 0;
+}
+
+.img-container {
+  height: 180px;
+}
+
+.softail-btn {
+  text-transform: uppercase;
+  font-size: large;
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  /* gap: 5px; */
+  padding-left: 0;
+  text-align: left;
+  width: 200px;
+}
+
+.softail-second-section {
+  font-family: "Noto Sans";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.softail-second-left {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.softail-second-left h3 {
+  font-family: "Noto Sans";
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 150px;
+  color: white;
+}
+
+.softail-second-center {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  width: 270px;
+  color: white;
+}
+
+.softail-second-center p {
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.softail-second-btn {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  text-transform: uppercase;
+  border-style: 1px solid black;
+  padding: 10px;
+  background-color: #fefefe;
+  font-size: 14px;
+  border-radius: 3px;
+  /* -webkit-box-shadow: 2px 8px 26px -1px #c4c4c4; */
+  /* box-shadow: 2px 8px 26px -1px #c4c4c4; */
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
