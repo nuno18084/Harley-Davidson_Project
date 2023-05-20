@@ -28,6 +28,15 @@
   line-height: 21px;
 }
 
+.center-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.center-nav a:hover {
+  color: rgb(242, 82, 43);
+}
+
 .navbar-container {
   display: flex;
   align-items: center;

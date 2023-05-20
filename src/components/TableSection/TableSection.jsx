@@ -19,13 +19,7 @@ const TableSection = () => {
           <FiArrowUpRight />
         </button>
         <div>
-          <img
-            className="first-img"
-            src={iron}
-            width={450}
-            height={300}
-            alt="1250T"
-          />
+          <img className="first-img" src={iron} height={300} alt="1250T" />
         </div>
       </div>
       <div className="second-container">

@@ -3,6 +3,13 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const handleClick = () => {
+    window.open(
+      "https://www.harley-davidson.com/pt/pt/products/bikes.html",
+      "_blank"
+    );
+  };
+
   return (
     <div className="navbar-section">
       <div className="navbar-container">
@@ -21,12 +28,38 @@ const Navbar = () => {
             <option>Bike 2</option>
             <option>Bike 3</option>
           </select>
-          <div>New Arrivals</div>
-          <div>Parts</div>
-          <div>Shop</div>
-          <div>Services</div>
+          <a
+            href="https://www.harley-davidson.com/pt/pt/products/bikes.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div>New Arrivals</div>
+          </a>
+          <a
+            href="https://www.harley-davidson.com/pt/pt/products/bikes.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div>Parts</div>
+          </a>
+          <a
+            href="https://www.harley-davidson.com/pt/pt/products/bikes.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div>Shop</div>
+          </a>
+          <a
+            href="https://www.harley-davidson.com/pt/pt/products/bikes.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div>Services</div>
+          </a>
         </div>
-        <button className="navbar-button">Contact Us</button>
+        <button onClick={handleClick} className="navbar-button">
+          Contact Us
+        </button>
       </div>
     </div>
   );
