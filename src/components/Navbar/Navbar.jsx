@@ -1,6 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Logo from "../../images/logo.png";
 
 const Navbar = () => {
   const handleClick = () => {
@@ -13,13 +14,7 @@ const Navbar = () => {
   return (
     <div className="navbar-section">
       <div className="navbar-container">
-        <img
-          className="logo"
-          src="https://www.imgtr.ee/images/2023/05/10/lJVam.png"
-          alt="logo"
-          height={45}
-          width={200}
-        />
+        <img className="logo" src={Logo} alt="logo" height={45} width={200} />
         <div className="center-nav">
           {/* <div>Bikes</div> */}
           <select placeholder="BIKES" className="bikes-dropdown">
