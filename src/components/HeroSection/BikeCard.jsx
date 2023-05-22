@@ -5,7 +5,6 @@ import Carousel from "react-bootstrap/Carousel";
 import Buttons from "./Buttons/Buttons";
 import Bike from "../../images/BikeCard.png";
 import Helmet from "../../images/helmet.png";
-import Fat from "../../images/Fat.png";
 import Delmar from "../../images/delmar.png";
 import Rock from "../../images/Rock.png";
 
