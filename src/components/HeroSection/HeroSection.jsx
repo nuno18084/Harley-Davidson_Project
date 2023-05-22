@@ -2,16 +2,13 @@ import React from "react";
 import "./HeroSection.css";
 import BikeCard from "./BikeCard";
 import models from "./BikeModels";
+import Sub from "../../images/sub-logo.png";
 
 const HeroSection = () => {
   return (
     <div className="hero-main-section">
       <div className="hero-logo-section">
-        <img
-          src="https://www.imgtr.ee/images/2023/05/10/llhII.png"
-          alt="hero-section"
-          width={500}
-        />
+        <img src={Sub} alt="hero-section" width={500} />
       </div>
       <div>
         <BikeCard

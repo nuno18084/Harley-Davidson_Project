@@ -62,7 +62,7 @@
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 .softail-second-left {
@@ -101,8 +101,6 @@
   background-color: #fefefe;
   font-size: 14px;
   border-radius: 3px;
-  /* -webkit-box-shadow: 2px 8px 26px -1px #c4c4c4; */
-  /* box-shadow: 2px 8px 26px -1px #c4c4c4; */
 }
 
 .btn-icon {

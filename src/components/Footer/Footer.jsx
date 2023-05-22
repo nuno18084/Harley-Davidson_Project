@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 import Logo from "../../images/logo.png";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillTwitterSquare } from "react-icons/ai";
@@ -14,77 +15,90 @@ const Footer = () => {
   };
 
   return (
-    <div className="footer-main-container">
-      <div className="footer-first-container">
-        <div className="footer-logo-section">
-          <div>
-            <img src={Logo} alt="footer-logo" height={35} width={150} />
-          </div>
-          <div>
-            <h5>Stay Connected with us</h5>
-          </div>
-          <div className="footer-social-media-section">
+    <div className="background-container">
+      <div className="footer-main-container">
+        <div className="footer-first-container">
+          <div className="footer-logo-section">
             <div>
-              <AiFillFacebook />
+              <img
+                className="logo-image"
+                src={Logo}
+                alt="footer-logo"
+                height={35}
+                width={150}
+              />
             </div>
             <div>
-              <AiFillTwitterSquare />
+              <h5 className="first-h5">Stay Connected with us</h5>
+            </div>
+            <div className="footer-social-media-section">
+              <div>
+                <AiFillFacebook size={20} />
+              </div>
+              <div>
+                <AiFillTwitterSquare size={20} />
+              </div>
+              <div>
+                <AiFillLinkedin size={20} />
+              </div>
+            </div>
+          </div>
+          <div className="footer-nav-section">
+            <div>
+              <h5>Home</h5>
+              <ul className="footer-nav-list">
+                <li>About Us</li>
+                <li>Events</li>
+                <li>News</li>
+                <li>Blog</li>
+              </ul>
             </div>
             <div>
-              <AiFillLinkedin />
+              <h5>About</h5>
+              <ul className="footer-nav-list">
+                <li>Company</li>
+                <li>Career</li>
+                <li>Investors</li>
+                <li>News</li>
+              </ul>
+            </div>
+            <div>
+              <h5>Bikes</h5>
+              <ul className="footer-nav-list">
+                <li>Motorcycles</li>
+                <li>Collection</li>
+                <li>Electronic</li>
+                <li>Shop all</li>
+              </ul>
+            </div>
+            <div>
+              <h5>Offers</h5>
+              <ul className="footer-nav-list">
+                <li>Shipping</li>
+                <li>Exchanges</li>
+                <li>Insurance</li>
+                <li>Service</li>
+              </ul>
             </div>
           </div>
         </div>
-        <div className="footer-nav-section">
-          <div>
-            <h5>Home</h5>
-            <ul>
-              <li>About Us</li>
-              <li>Events</li>
-              <li>News</li>
-              <li>Blog</li>
-            </ul>
+        <div className="footer-second-container">
+          <div className="footer-second-links">
+            <h5>Privacy Policy</h5>
+            <h5>Disclaimers</h5>
+            <h5>Insurance</h5>
           </div>
-          <div>
-            <h5>About</h5>
-            <ul>
-              <li>Company</li>
-              <li>Career</li>
-              <li>Investors</li>
-              <li>News</li>
-            </ul>
+          <div className="btn-container">
+            <button
+              className="footer-dealer-btn btn-icon"
+              onClick={handleDealer}
+            >
+              <div>
+                <BiFileFind size={20} className="dealer-icon btn-icon" />
+              </div>
+              Find a Dealer
+            </button>
           </div>
-          <div>
-            <h5>Bikes</h5>
-            <ul>
-              <li>Motorcycles</li>
-              <li>Collection</li>
-              <li>Electronic</li>
-              <li>Shop all</li>
-            </ul>
-          </div>
-          <div>
-            <h5>Offers</h5>
-            <ul>
-              <li>Shipping</li>
-              <li>Exchanges</li>
-              <li>Insurance</li>
-              <li>Service</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="footer-second-container">
-        <div>
-          <h5>Privacy Policy</h5>
-          <h5>Disclaimers</h5>
-          <h5>Insurance</h5>
-        </div>
-        <div>
-          <button onClick={handleDealer}>
-            <BiFileFind size={20} />
-            Find a Dealer
-          </button>
         </div>
       </div>
     </div>

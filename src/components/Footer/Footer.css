@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap");
+
+.background-container {
+  background-color: black;
+}
+
+.footer-first-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 35px;
+}
+
+.footer-nav-section li {
+  list-style: none;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}
+
+.footer-nav-section h5 {
+  font-family: "Noto Sans";
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.footer-nav-list {
+  padding-left: 0;
+}
+
+.footer-nav-list li {
+  margin-bottom: 10px;
+}
+
+.logo-image {
+  margin-bottom: 20px;
+}
+
+.first-h5 {
+  font-family: "Noto Sans";
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.footer-main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 80px 0px 80px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social-media-section {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-nav-section {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-evenly;
+  gap: 120px;
+}
+
+.footer-second-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-second-links {
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans";
+
+  gap: 20px;
+}
+
+.footer-second-links h5 {
+  font-weight: 400;
+  font-size: 14px;
+  color: gray;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dealer-icon {
+  color: #f9ea2a;
+}
+
+.footer-dealer-btn {
+  font-family: "Noto Sans";
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  gap: 5px;
+  background-color: black;
+  color: white;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
