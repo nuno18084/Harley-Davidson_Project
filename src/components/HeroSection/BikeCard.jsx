@@ -21,7 +21,7 @@ const BikeCard = (props) => {
       <div className="hero-bike-section">
         <div className="hero-bike-info">
           <div>
-            <div className="bike-info-title">Electric Motor</div>
+            <div className="bike-info-title">Motor</div>
             <div className="bike-info-subtitle bike-info-border1">
               {props.motor}
             </div>

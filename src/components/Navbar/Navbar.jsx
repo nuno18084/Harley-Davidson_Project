@@ -16,13 +16,13 @@ const Navbar = () => {
       <div className="navbar-container">
         <img className="logo" src={Logo} alt="logo" height={45} width={200} />
         <div className="center-nav">
-          {/* <div>Bikes</div> */}
-          <select placeholder="BIKES" className="bikes-dropdown">
-            <option>Bikes</option>
-            <option>Bike 1</option>
-            <option>Bike 2</option>
-            <option>Bike 3</option>
-          </select>
+          <a
+            href="https://www.harley-davidson.com/pt/pt/products/bikes.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div>Bikes</div>
+          </a>
           <a
             href="https://www.harley-davidson.com/pt/pt/products/bikes.html"
             target="_blank"
