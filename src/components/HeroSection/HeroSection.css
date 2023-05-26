@@ -89,4 +89,16 @@
   z-index: 1;
   -webkit-box-shadow: 2px 8px 26px -1px #c4c4c4;
   box-shadow: 2px 8px 26px -1px #c4c4c4;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+  box-shadow: 2px 8px 26px -1px #c4c4c4;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }

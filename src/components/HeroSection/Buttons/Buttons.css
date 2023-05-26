@@ -19,11 +19,19 @@
   border-radius: 3px;
   -webkit-box-shadow: 2px 8px 26px -1px #c4c4c4;
   box-shadow: 2px 8px 26px -1px #c4c4c4;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
 }
 
-/* .btn-stand-dealer:hover {
-  transition: 0.2s;
-} */
+.btn-stand-dealer:hover,
+.btn-stand-dealer:focus,
+.btn-stand-dealer:active {
+  box-shadow: 2px 8px 26px -1px #c4c4c4;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 .btn-stand-ride {
   font-family: "Noto Sans";
@@ -36,6 +44,18 @@
   border-radius: 3px;
   -webkit-box-shadow: 2px 8px 26px -1px #c4c4c4;
   box-shadow: 2px 8px 26px -1px #c4c4c4;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.btn-stand-ride:hover,
+.btn-stand-ride:focus,
+.btn-stand-ride:active {
+  box-shadow: 2px 8px 26px -1px #c4c4c4;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .btn-icon {
